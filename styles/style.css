@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  margin-bottom: 50vh;
+}
 
 h1 {
   font-size: 65px;
@@ -14,6 +17,16 @@ h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
 }
 p {
   font-size: 16px;
@@ -41,7 +54,6 @@ p {
   width: 70%;
   max-width: 1600px;
   margin: 0 auto;
-  padding-top: 80px;
 }
 .header__main__wrap {
   /*header section background image*/
@@ -70,6 +82,7 @@ p {
   display: flex;
   gap: 100px;
   align-items: center;
+  margin-top: 80px;
 }
 
 .failure__left__wrap img {
@@ -91,4 +104,21 @@ p {
 }
 .failure-list li i {
   color: #4ecb71;
+}
+/* Plans Section */
+.plans__section__wrap {
+  margin-top: 130px;
+}
+.plans__section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plans__contents__wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.plans__contents__wrap .item-subtitle {
+  color: #737272;
 }
