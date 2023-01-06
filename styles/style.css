@@ -119,6 +119,9 @@ p {
   align-items: center;
   text-align: center;
 }
+.plans__contents__wrap .item-title {
+  margin: 16px 0;
+}
 .plans__contents__wrap .item-subtitle {
   color: #737272;
 }
