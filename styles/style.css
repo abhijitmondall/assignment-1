@@ -104,17 +104,17 @@ p {
 }
 
 .failure__left__wrap img,
-.about__left__wrap img {
+.about__right__wrap img {
   width: 570px;
 }
 .failure__right__wrap,
-.about__right__wrap {
+.about__left__wrap {
   flex-basis: 33%;
   padding: 30px;
   margin-top: 150px;
 }
 .failure__right__wrap p,
-.about__right__wrap p {
+.about__left__wrap p {
   margin: 24px 0px;
 }
 .failure-list li,
