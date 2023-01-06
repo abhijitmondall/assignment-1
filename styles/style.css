@@ -1,9 +1,22 @@
-/* Universal selectors */
+/** 
+    >> Universal selectors 
+**/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+#main__wrap {
+  width: 100%;
+  max-width: 100%;
+}
+.section__wrap {
+  width: 70%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 body {
   margin-bottom: 50vh;
 }
@@ -34,7 +47,9 @@ p {
   line-height: 26px;
 }
 
-/* Primary Button */
+/** 
+    >> Primary Button 
+**/
 .btn--primary {
   font-size: 20px;
   font-weight: 600;
@@ -46,15 +61,10 @@ p {
   border-radius: 5px;
   cursor: pointer;
 }
-#main__wrap {
-  width: 100%;
-  max-width: 100%;
-}
-.section__wrap {
-  width: 70%;
-  max-width: 1600px;
-  margin: 0 auto;
-}
+
+/** 
+    >> Header Section 
+**/
 .header__main__wrap {
   /*header section background image*/
   background-image: url(../images/banner/banner3.png);
@@ -77,7 +87,9 @@ p {
   padding: 32px 0;
 }
 
-/* Failure Section */
+/** 
+    >> Failure Section 
+**/
 .failure__section__wrap {
   display: flex;
   gap: 100px;
@@ -105,7 +117,9 @@ p {
 .failure-list li i {
   color: #4ecb71;
 }
-/* Plans Section */
+/** 
+    >> Plans Section 
+**/
 .plans__section__wrap {
   margin-top: 130px;
 }
