@@ -85,35 +85,50 @@ p {
 }
 
 /** 
+    >> About me Section
+    AND 
     >> Failure Section 
 **/
-.failure__section__wrap {
+.about__section__wrap {
+  background-color: #f5f5f5;
+  padding: 50px 0px 0px 50px;
+  border-radius: 3px;
+}
+
+.failure__section__wrap,
+.about__section__wrap {
   display: flex;
   gap: 100px;
   align-items: center;
   margin-top: 80px;
 }
 
-.failure__left__wrap img {
+.failure__left__wrap img,
+.about__left__wrap img {
   width: 570px;
 }
-.failure__right__wrap {
+.failure__right__wrap,
+.about__right__wrap {
   flex-basis: 33%;
   padding: 30px;
   margin-top: 150px;
 }
-.failure__right__wrap p {
+.failure__right__wrap p,
+.about__right__wrap p {
   margin: 24px 0px;
 }
-.failure-list li {
+.failure-list li,
+.about-list li {
   list-style: none;
   line-height: 26px;
   color: #444343;
   font-weight: 400;
 }
-.failure-list li i {
+.failure-list li i,
+.about-list li i {
   color: #4ecb71;
 }
+
 /** 
     >> Plans Section 
 **/
