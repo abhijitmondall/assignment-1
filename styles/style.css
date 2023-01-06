@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 #main__wrap {
@@ -15,10 +16,6 @@
   width: 70%;
   max-width: 1600px;
   margin: 0 auto;
-}
-
-body {
-  margin-bottom: 50vh;
 }
 
 h1 {
@@ -129,7 +126,7 @@ p {
 }
 .plans__contents__wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
@@ -138,4 +135,29 @@ p {
 }
 .plans__contents__wrap .item-subtitle {
   color: #737272;
+}
+
+/** 
+    >> Call now Section 
+**/
+.call__section__wrap {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/watch.png),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 130px;
+  margin-bottom: 110px;
+  padding: 64px;
+  border-radius: 8px;
+}
+.call__content__wrap {
+  width: 42%;
+}
+.call__content__wrap .section-title {
+  color: #ffffff;
+  margin-bottom: 24px;
 }
