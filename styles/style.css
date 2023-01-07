@@ -71,19 +71,19 @@ p {
   /*header section background image*/
   background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
-  background-size: 100% 800px;
+  background-size: 100% 808px;
 }
 
 .header__section__wrap {
-  width: 80%;
-  height: 85vh;
+  width: 88%;
+  height: 808px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .header__content__wrap {
-  width: 30%;
+  width: 33%;
   text-align: right;
   color: #f8f8f8;
 }
@@ -113,13 +113,14 @@ p {
 
 .failure__left__wrap img,
 .about__right__wrap img {
-  width: 570px;
+  width: 100%;
+  max-width: 570px;
 }
 
 .failure__right__wrap,
 .about__left__wrap {
-  flex-basis: 33%;
-  padding: 30px;
+  flex-basis: 40%;
+  padding: 42px;
   margin-top: 150px;
 }
 
@@ -163,6 +164,7 @@ p {
 .plans__contents__wrap .item-title {
   margin: 16px 0;
 }
+
 .plans__contents__wrap .item-subtitle {
   color: #737272;
 }
