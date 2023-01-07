@@ -204,7 +204,6 @@ p {
 .footer__section__wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   color: #f8f8f8;
   padding-top: 158px;
   padding-bottom: 101px;
@@ -213,7 +212,9 @@ p {
 .footer__left__wrap {
   width: 40%;
 }
-
+.footer__left__wrap .footer-title {
+  font-size: 45px;
+}
 .footer__left__wrap .footer-description {
   margin: 24px 0;
 }
